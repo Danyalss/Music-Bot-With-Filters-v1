@@ -1,3 +1,4 @@
+const keepAlive = require("./server.js") 
 const Discord = require(`discord.js`);
 const { Client, Collection, MessageEmbed,MessageAttachment } = require(`discord.js`);
 const { readdirSync } = require(`fs`);
